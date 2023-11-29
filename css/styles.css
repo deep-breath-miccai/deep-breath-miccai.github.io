@@ -466,7 +466,7 @@ Features-stack
     margin-bottom: 0;
     padding-bottom: 0; }
   .features h3 {
-    margin: 0 0 20px 0; }
+    margin: 0 0 10px 0; }
   .features span.icon {
     font-size: 35px;
     color: #FF5274;
@@ -491,8 +491,8 @@ Features-stack
   .features ul.features-stack {
     margin-top: 50px; }
   .features ul.features-stack li {
-    margin-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
     border-bottom: solid 1px #E6E9EA; }
   .features ul.features-stack li:last-child {
     padding-bottom: 0px;
