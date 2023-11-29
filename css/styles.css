@@ -152,19 +152,19 @@ ul li {
 
 .tooltip.top {
   padding: 5px 0;
-  margin-top: -1px; }
+  margin-top: -3px; }
 
 .tooltip.right {
   padding: 0 5px;
-  margin-left: 1px; }
+  margin-left: 3px; }
 
 .tooltip.bottom {
   padding: 5px 0;
-  margin-top: 1px; }
+  margin-top: 3px; }
 
 .tooltip.left {
   padding: 0 5px;
-  margin-left: -1px; }
+  margin-left: -3px; }
 
 .tooltip-inner {
   max-width: 200px;
