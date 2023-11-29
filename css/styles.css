@@ -512,8 +512,8 @@ Features-stack
     z-index: 2; }
   .features .device-showcase {
     position: absolute;
-    bottom: -365px;
-    right: 61%; }
+    bottom: -0px;
+    right: 50%; }
 
 .features .responsive-feature-img, .features-extra .responsive-feature-img {
   display: none; }
