@@ -373,8 +373,8 @@ Hero
     padding-top: 26%; }
 
 .navigation {
-  -webkit-transition: all 300ms ease-in-out;
-          transition: all 300ms ease-in-out;
+  -webkit-transition: all 100ms ease-in-out;
+          transition: all 100ms ease-in-out;
   position: fixed;
   width: 100%;
   z-index: 999; }
@@ -391,8 +391,8 @@ header {
   position: relative;
   width: 1170px;
   margin: 0 auto;
-  -webkit-transition: padding 300ms ease-in-out;
-          transition: padding 300ms ease-in-out; }
+  -webkit-transition: padding 100ms ease-in-out;
+          transition: padding 100ms ease-in-out; }
   header a {
     color: #fff;
     text-transform: uppercase;
@@ -425,8 +425,8 @@ header {
     position: absolute;
     right: 0;
     top: 41px;
-    -webkit-transition: all 300ms ease-in-out;
-            transition: all 300ms ease-in-out; }
+    -webkit-transition: all 100ms ease-in-out;
+            transition: all 100ms ease-in-out; }
 
 .down-arrow {
   color: #fff;
