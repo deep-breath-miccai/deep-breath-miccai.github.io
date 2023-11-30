@@ -5,9 +5,9 @@
 Typography
 ========================================================================== */
 p {
-  font-size: 15px;
-  line-height: 29px;
-  color: rgba(28, 54, 83, 0.6);
+  font-size: 17px;
+  line-height: 22px;
+  color: rgba(28, 54, 83, 1);
   padding-bottom: 20px; }
 
 h1 {
@@ -116,7 +116,7 @@ a:hover, a:focus {
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  color: rgba(28, 54, 83, 0.6);
+  color: rgba(28, 54, 83, 1);
   -webkit-text-size-adjust: 100%; }
 
 ul, ol {
