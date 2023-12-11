@@ -438,30 +438,6 @@
                         </div>
                         <p> Recruiting, coming soon... </p>
 
-                        <h3> </h3>
-                        <div>
-                        <h1>Welcome to My Website</h1>
-                        <p>This page has been visited <span id="visitCount">loading...</span> times.</p>
-                        </div>
-
-                        <script>
-                            // Function to update and display the visit count
-                            function updateVisitCount() {
-                               // Check if 'visitCount' is stored in local storage
-                                if (localStorage.visitCount) {
-                                    localStorage.visitCount = Number(localStorage.visitCount) + 1;
-                                } else {
-                                    localStorage.visitCount = 1;
-                                }
-
-                                // Update the HTML with the visit count
-                                document.getElementById('visitCount').textContent = localStorage.visitCount;
-                            }
-
-                            // Call the function when the page is loaded
-                            document.addEventListener('DOMContentLoaded', updateVisitCount);
-                        </script>
-
                       <h3> </h3>
                       <h3 id="advisory"> Advisory Committee </h3>
                       <div class="row">
@@ -494,6 +470,11 @@
                         <a href="https://odelia.ai/" target="_blank"><img src="img/ODELIA.png" height="50px"></a>
                         <a href="https://scholar.google.com/citations?user=vPwW_6EAAAAJ&hl=zh-CN" target="_blank"><img src="img/big.png" height="50px"></a>
                     </div>
+                    
+                    <h3> </h3>
+                    <div class="feature-list">
+                    <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fdeep-breath-miccai.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=false"/></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -518,10 +499,11 @@
             <div class="row">
                 
                     <div class="col-xs-3"  style="padding-top:5px">
-                        <div class="ssk-lg ssk-group">
+                        <div class="feature-list">   <!-- <"ssk-lg ssk-group"> -->
                         <a href="https://www.facebook.com/sharer/sharer.php?u=https://deep-breath-miccai.github.io/" class="ssk ssk-facebook ssk-lg"></a>
                         <a href="https://twitter.com/intent/tweet?text=https://deep-breath-miccai.github.io/" class="ssk ssk-twitter ssk-lg"></a>
                         <a href="https://www.linkedin.com/cws/share?url=https://deep-breath-miccai.github.io./" class="ssk ssk-linkedin ssk-lg"></a>
+                        <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fdeep-breath-miccai.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=false"/></a>
                         </div>
                     </div>
                         
