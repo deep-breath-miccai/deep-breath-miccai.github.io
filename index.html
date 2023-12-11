@@ -438,6 +438,30 @@
                         </div>
                         <p> Recruiting, coming soon... </p>
 
+                        <h3> </h3>
+                        <div>
+                        <h1>Welcome to My Website</h1>
+                        <p>This page has been visited <span id="visitCount">loading...</span> times.</p>
+                        </div>
+
+                        <script>
+                            // Function to update and display the visit count
+                            function updateVisitCount() {
+                               // Check if 'visitCount' is stored in local storage
+                                if (localStorage.visitCount) {
+                                    localStorage.visitCount = Number(localStorage.visitCount) + 1;
+                                } else {
+                                    localStorage.visitCount = 1;
+                                }
+
+                                // Update the HTML with the visit count
+                                document.getElementById('visitCount').textContent = localStorage.visitCount;
+                             }
+
+                             // Call the function when the page is loaded
+                             document.addEventListener('DOMContentLoaded', updateVisitCount);
+                        </script>
+
                       <h3> </h3>
                       <h3 id="advisory"> Advisory Committee </h3>
                       <div class="row">
