@@ -10,6 +10,12 @@ p {
   color: rgba(28, 54, 83, 1);
   padding-bottom: 20px; }
 
+pt {
+  font-size: 17px;
+  line-height: 22px;
+  color: rgba(28, 54, 83, 1);
+  padding-bottom: 10px; }
+
 p22 {
   font-size: 17px;
   line-height: 22px;
