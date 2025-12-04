@@ -32,7 +32,7 @@ p22 {
   padding-bottom: 20px; }
 
 h1 {
-  font-size: 55px; }
+  font-size: 45px; }
 
 h2 {
   font-size: 40px;
@@ -392,7 +392,7 @@ Hero
     font-weight: 300;
     margin-bottom: 80px; }
   .hero .hero-content {
-    padding-top: 15%; }
+    padding-top: 26%; }
 
 .navigation {
   -webkit-transition: all 100ms ease-in-out;
@@ -424,7 +424,7 @@ header {
   header .logo {
     display: inline-block; }
   header ul.primary-nav {
-    margin: 0 0 0 75px;
+    margin: 0 0 0 30px;
     padding: 0; }
     header ul.primary-nav li {
       display: inline; }
