@@ -44,7 +44,7 @@ p22 {
 h1 {
   font-size: 45px; 
   background-color: rgba(255, 192, 0, 0.3); /* 半透明粉色 */
-  padding: 12px 20px;
+  padding: 20px 20px;
   border-radius: 10px;        /* 圆角 */
   color:#007AA0;}
 
@@ -399,7 +399,7 @@ Hero
     color: #fff; }
   .hero h1 {
     color: #fff;
-    margin-top: 5px;          /* 关键 */
+    margin-top: 10px;          /* 关键 */
     margin-bottom: 20px;
     line-height: 1.1;       /* 关键 */}
   .hero p.intro {
