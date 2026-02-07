@@ -17,7 +17,7 @@ pb {
   background-color: rgba(255, 192, 0, 0.3); /* 半透明粉色 */
   padding: 12px 20px;
   border-radius: 10px;        /* 圆角 */
-  color: rgba(28, 54, 83, 1);}
+  color: rgba(0, 122, 160, 1);}
 
 pt {
   font-size: 17px;
@@ -399,7 +399,7 @@ Hero
     color: #fff; }
   .hero h1 {
     color: #fff;
-    margin-top: 0;          /* 关键 */
+    margin-top: 5px;          /* 关键 */
     margin-bottom: 20px;
     line-height: 1.1;       /* 关键 */}
   .hero p.intro {
