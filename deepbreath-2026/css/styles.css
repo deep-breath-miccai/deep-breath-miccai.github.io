@@ -14,7 +14,7 @@ pb {
   font-size: 17px;
   /* line-height: 22px; */
   /* padding-bottom: 20px;  */
-  background-color: rgba(255, 192, 0, 0.3); /* 半透明粉色 */
+  /* background-color: rgba(255, 192, 0, 0.3); /* 半透明粉色 */ */
   padding: 12px 20px;
   border-radius: 10px;        /* 圆角 */
   color: rgba(0, 0, 0, 1);}
@@ -42,7 +42,7 @@ p22 {
   padding-bottom: 20px; }
 
 h1 {
-  font-size: 45px; 
+  font-size: 36px; 
   background-color: rgba(255, 192, 0, 0.3); /* 半透明粉色 */
   padding: 20px 20px;
   border-radius: 10px;        /* 圆角 */
@@ -411,6 +411,7 @@ Hero
     color: #000000;
     font-size: 20px;
     font-weight: 300;
+    margin-top: 20px;
     margin-bottom: 80px; }
   .hero .hero-content {
     /* padding-top: 26%;  */
