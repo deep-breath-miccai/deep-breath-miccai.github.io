@@ -17,7 +17,7 @@ pb {
   background-color: rgba(255, 192, 0, 0.3); /* 半透明粉色 */
   padding: 12px 20px;
   border-radius: 10px;        /* 圆角 */
-  color: rgba(0, 122, 160, 1);}
+  color: rgba(0, 0, 0, 1);}
 
 pt {
   font-size: 17px;
@@ -408,7 +408,7 @@ Hero
     font-weight: 300;
     margin-bottom: 80px; }
   .hero pb.intro {
-    color: #007AA0;
+    color: #000000;
     font-size: 20px;
     font-weight: 300;
     margin-bottom: 80px; }
