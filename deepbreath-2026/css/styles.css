@@ -12,12 +12,12 @@ p {
 
 pb {
   font-size: 17px;
-  line-height: 22px;
-  color: rgba(28, 54, 83, 1);
-  padding-bottom: 20px; 
-  background-color: rgba(255, 82, 116, 0.15); /* 半透明粉色 */
+  /* line-height: 22px; */
+  /* padding-bottom: 20px;  */
+  background-color: rgba(255, 82, 116, 0.3); /* 半透明粉色 */
   padding: 12px 20px;
-  border-radius: 10px;        /* 圆角 */}
+  border-radius: 10px;        /* 圆角 */
+  color: rgba(28, 54, 83, 1);}
 
 pt {
   font-size: 17px;
@@ -43,7 +43,7 @@ p22 {
 
 h1 {
   font-size: 45px; 
-  background-color: rgba(255, 82, 116, 0.15); /* 半透明粉色 */
+  background-color: rgba(255, 82, 116, 0.3); /* 半透明粉色 */
   padding: 12px 20px;
   border-radius: 10px;        /* 圆角 */
   color:#007AA0;}
