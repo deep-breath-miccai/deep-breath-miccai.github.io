@@ -402,6 +402,20 @@ Hero
     margin-top: 10px;          /* 关键 */
     margin-bottom: 20px;
     line-height: 1.1;       /* 关键 */}
+  .hero h1::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 120vw;                    /* 👈 控制延伸宽度 */
+  height: 140%;                    /* 背景高度 */
+  background: rgba(255, 192, 0, 0.22);
+  border-radius: 20px;
+
+  z-index: -1;
+}
   .hero p.intro {
     color: #fff;
     font-size: 20px;
