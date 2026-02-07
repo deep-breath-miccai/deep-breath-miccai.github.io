@@ -399,7 +399,7 @@ Hero
     color: #fff; }
   .hero h1 {
     color: #fff;
-    margin-top: 10px;          /* 关键 */
+    margin-top: 20px;          /* 关键 */
     margin-bottom: 20px;
     line-height: 1.1;       /* 关键 */}
   .hero h1::before {
@@ -425,12 +425,12 @@ Hero
     color: #000000;
     font-size: 20px;
     font-weight: 300;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 80px; }
   .hero .hero-content {
     /* padding-top: 26%;  */
-    padding-top: 90px;
-    margin-bottom: 20px;}
+    padding-top: 60px;
+    margin-bottom: 30px;}
 
 .navigation {
   -webkit-transition: all 100ms ease-in-out;
