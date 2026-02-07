@@ -14,16 +14,17 @@ pb {
   font-size: 17px;
   line-height: 22px;
   color: rgba(28, 54, 83, 1);
-  padding-bottom: 20px; }
+  padding-bottom: 20px; 
+  background-color: rgba(255, 82, 116, 0.15); /* 半透明粉色 */
+  padding: 12px 20px;
+  border-radius: 10px;        /* 圆角 */}
 
 pt {
   font-size: 17px;
   line-height: 12px;
   color: rgba(28, 54, 83, 1);
   padding-bottom: 12px;
-  background-color: rgba(255, 82, 116, 0.15); /* 半透明粉色 */
-  padding: 12px 20px;
-  border-radius: 10px;        /* 圆角 */}
+}
 
 at {
   color: #FF5274;
