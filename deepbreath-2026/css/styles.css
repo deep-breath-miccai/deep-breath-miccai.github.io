@@ -26,41 +26,6 @@ pt {
   padding-bottom: 12px;
 }
 
-<style>
-    .news-scroll-container {
-        border: 1px solid #ddd;
-        padding: 15px 20px;
-        max-height: 300px; 
-        overflow-y: scroll;
-        background-color: #fff;
-        margin-top: 15px;
-        border-radius: 4px;
-    }
-
-    /* 内部列表样式 */
-    .news-list {
-        list-style-type: square;
-        margin: 0;
-        padding-left: 20px;
-    }
-
-    .news-list li {
-        margin-bottom: 12px;
-        line-height: 1.5;
-        font-size: 15px;
-        color: #333;
-    }
-
-    .news-list li a {
-        color: #FF5274;
-        text-decoration: none;
-    }
-
-    .news-list li a:hover {
-        text-decoration: underline;
-    }
-</style>
-
 at {
   color: #FF5274;
   -webkit-transition-timing-function: ease;
