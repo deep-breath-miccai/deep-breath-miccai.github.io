@@ -27,59 +27,40 @@ pt {
 }
 
 <style>
-    /* 核心滑动容器 */
-    .tc-scroll-box {
-        max-height: 250px;       /* 限制高度，超过这个高度就会出现滚动条 */
-        overflow-y: auto;        /* 纵向溢出时自动显示滚动条 */
-        padding: 20px;
-        background: #fffafa;     /* 极淡的粉色背景，区分区域 */
-        border: 1px solid #ffe4e8;
-        border-radius: 8px;
+    /* 滑动栏外层容器 */
+    .news-scroll-container {
+        border: 1px solid #ddd;   /* 灰色边框 */
+        padding: 15px 20px;       /* 内部间距 */
+        max-height: 300px;        /* 超过 300px 后出现滚动条 */
+        overflow-y: scroll;       /* 始终显示纵向滚动条 */
+        background-color: #fff;   /* 背景颜色 */
         margin-top: 15px;
-        text-align: left;        /* 确保文字左对齐 */
+        border-radius: 4px;       /* 轻微圆角 */
     }
 
-    /* 每一个成员行的样式 */
-    .tc-item {
-        margin-bottom: 8px;
-        line-height: 1.6;
+    /* 内部列表样式 */
+    .news-list {
+        list-style-type: square;  /* 列表符号改为方块，匹配图片 */
+        margin: 0;
+        padding-left: 20px;
+    }
+
+    .news-list li {
+        margin-bottom: 12px;      /* 每一行之间的间距 */
+        line-height: 1.5;
         font-size: 15px;
+        color: #333;              /* 文字颜色 */
     }
 
-    /* 自定义滚动条样式 (Chrome/Edge/Safari) */
-    .tc-scroll-box::-webkit-scrollbar {
-        width: 8px;
+    .news-list li a {
+        color: #FF5274;           /* 链接颜色 */
+        text-decoration: none;
     }
-    .tc-scroll-box::-webkit-scrollbar-thumb {
-        background-color: #FF5274; /* 匹配你网站的粉色主题 */
-        border-radius: 10px;
-    }
-    .tc-scroll-box::-webkit-scrollbar-track {
-        background: #f1f1f1;
+
+    .news-list li a:hover {
+        text-decoration: underline;
     }
 </style>
-
-.scrollable-committee {
-    max-height: 300px; /* 你可以根据需要调整高度 */
-    overflow-y: auto;
-    padding: 15px;
-    border: 1px solid #eee;
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-/* 美化滚动条（可选，适用于 Chrome/Safari） */
-.scrollable-committee::-webkit-scrollbar {
-    width: 6px;
-}
-.scrollable-committee::-webkit-scrollbar-thumb {
-    background-color: #FF5274; /* 使用你网站的主题粉色 */
-    border-radius: 10px;
-}
-.scrollable-committee::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
 
 at {
   color: #FF5274;
