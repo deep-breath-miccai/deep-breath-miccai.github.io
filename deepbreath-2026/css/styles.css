@@ -14,9 +14,9 @@ pb {
   font-size: 12px;
   /* line-height: 22px; */
   /* padding-bottom: 20px;  */
-  /* background-color: rgba(255, 192, 0, 0.3); /* 半透明粉色 */ */
+  /* background-color: rgba(255, 192, 0, 0.3);
   padding: 12px 20px;
-  border-radius: 10px;        /* 圆角 */
+  border-radius: 10px;
   color: rgba(0, 0, 0, 1);}
 
 pt {
@@ -27,33 +27,32 @@ pt {
 }
 
 <style>
-    /* 滑动栏外层容器 */
     .news-scroll-container {
-        border: 1px solid #ddd;   /* 灰色边框 */
-        padding: 15px 20px;       /* 内部间距 */
-        max-height: 300px;        /* 超过 300px 后出现滚动条 */
-        overflow-y: scroll;       /* 始终显示纵向滚动条 */
-        background-color: #fff;   /* 背景颜色 */
+        border: 1px solid #ddd;
+        padding: 15px 20px;
+        max-height: 300px; 
+        overflow-y: scroll;
+        background-color: #fff;
         margin-top: 15px;
-        border-radius: 4px;       /* 轻微圆角 */
+        border-radius: 4px;
     }
 
     /* 内部列表样式 */
     .news-list {
-        list-style-type: square;  /* 列表符号改为方块，匹配图片 */
+        list-style-type: square;
         margin: 0;
         padding-left: 20px;
     }
 
     .news-list li {
-        margin-bottom: 12px;      /* 每一行之间的间距 */
+        margin-bottom: 12px;
         line-height: 1.5;
         font-size: 15px;
-        color: #333;              /* 文字颜色 */
+        color: #333;
     }
 
     .news-list li a {
-        color: #FF5274;           /* 链接颜色 */
+        color: #FF5274;
         text-decoration: none;
     }
 
