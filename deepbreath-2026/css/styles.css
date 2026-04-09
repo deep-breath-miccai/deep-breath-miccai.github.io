@@ -26,6 +26,39 @@ pt {
   padding-bottom: 12px;
 }
 
+<style>
+    /* 核心滑动容器 */
+    .tc-scroll-box {
+        max-height: 250px;       /* 限制高度，超过这个高度就会出现滚动条 */
+        overflow-y: auto;        /* 纵向溢出时自动显示滚动条 */
+        padding: 20px;
+        background: #fffafa;     /* 极淡的粉色背景，区分区域 */
+        border: 1px solid #ffe4e8;
+        border-radius: 8px;
+        margin-top: 15px;
+        text-align: left;        /* 确保文字左对齐 */
+    }
+
+    /* 每一个成员行的样式 */
+    .tc-item {
+        margin-bottom: 8px;
+        line-height: 1.6;
+        font-size: 15px;
+    }
+
+    /* 自定义滚动条样式 (Chrome/Edge/Safari) */
+    .tc-scroll-box::-webkit-scrollbar {
+        width: 8px;
+    }
+    .tc-scroll-box::-webkit-scrollbar-thumb {
+        background-color: #FF5274; /* 匹配你网站的粉色主题 */
+        border-radius: 10px;
+    }
+    .tc-scroll-box::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+</style>
+
 .scrollable-committee {
     max-height: 300px; /* 你可以根据需要调整高度 */
     overflow-y: auto;
